@@ -1,0 +1,238 @@
+<!-- Class structure is as follows: "note-body", "course", "course-name", "section", "section-name", "section-meat". -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nate's Notes</title>
+		<link rel="stylesheet" type="text/css" href="notestyle.css">
+	</head>
+	<body>
+		<h1>Introduction to Programing</h1>
+		<div class="note-body">
+			<div class="course">
+			<div class="course-name">
+				HTML and the "Web"
+			</div>	
+				<div class="section">
+					<div class="section-name">
+						Intro
+					</div>
+					<div class="section-meat">
+						<p>
+							The World Wide Web is made up of HTML or <em>Hypertext Markup Language</em> documents. Approximately 30 billion documents are "webbed" by <em>hyperlinks</em>. There are three major pieces that make up the web: a user with a computer and a browser that "reads" webpages,the internet (uses HTTP to make and send requests to servers), and servers, computers optimized to host the documents that make up the web.
+						</p>
+					</div>	
+				</div>	
+				<div class="section">
+					<div class="section-name">
+						HTML - Hypertext Markup Language
+					</div>
+					<div class="section-meat">			
+						<p>
+							HTML is made up of four main components: text content (what you can see), markup (creates the "look" of the page), references to other documents (e.g. images and videos), and links to other pages.
+						</p>
+					</div>	
+				</div>
+				<div class="section">
+					<div class="section-name">
+						Markup - Tags and Elements
+					</div>
+					<div class="section-meat">
+						<p>
+							<em>Elements</em> are made up of <em>tags</em> (both opening tags, and closing tags) with content between the tags.  These tags instruct the computer to change the content between them in a particular way (e.g. making text bold or italics). 
+						</p>
+						<p>
+							One type of tag, known as an <em>attribute</em>, can be used to create a link in the text (among other functions). For example: <a href="www.scratchpad.io">Practice HTML Here!</a>  Tags can also be used to insert images onto a page.  Keep in mind that tags create elements that are either <em>inline</em> or <em>block</em>.  Inline elements are on the line with text while block elements create an "invisible box" around the content.
+						</p>
+					</div>
+				</div>
+				<div class="section">
+					<div class="section-name">
+						Computers are Stupid
+					</div>
+					<div class="section-meat">
+						<p>
+							Computers read instructions <em>literally</em>.  For example: if you use a bold opening tag and failed to use a closing tag, the computer would interpret that as you asking for <em>everything</em> after the opening tag to be in bold text.
+						</p>
+					</div>	
+				</div>
+				<div class="section">
+					<div class="section-name">
+						Some General Concepts to Remember
+					</div>
+					<div class="section-meat">
+						<p>	
+							1 - Webpages are text documents written in HTML and "read" by browsers.
+							<br>
+							<br>2 - Coding is instructions written in computer language.
+							<br>
+							<br>3 - Computers are stupid!
+							<br>
+							<br>4 - Programmers can't remember everything. Don't be afraid to look things up!
+							<br>
+							<br>5 - Basic HTML vocabulary: <em>tag, element, attribute</em>.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="course">
+			<div class="course-name">
+				Creating Structure and Style
+			</div>	
+				<div class="section">
+					<div class="section-name">
+						Elements within Elements and Boxes within Boxes
+					</div>
+					<div class="section-meat">
+						<p>
+ 							Whether we are talking about the HTML code itself or the boxes that make up the "structure" of a webpage, <em>everything</em> is layered.
+						</p>
+					</div>
+				</div>	
+				<div class="section">
+					<div class="section-name">
+						Indenting: Waves and Trees
+					</div>	
+					<div class="section-meat">
+						<p>
+ 							Looking at HTML code reveals a wave created by indenting the divisions (read: boxes).  You can visually see how "deep" a box is by its level of indentation.
+						</p>
+						<p>
+							Note:  It's a good idea to create this structure first (even on paper using the "box method") before muddying the water with content.
+						</p>
+					</div>
+				</div>	
+			</div>
+			<div class="course">
+			<div class="course-name">
+				Introduction to "Serious" Programming
+			</div>
+				<div class="section">
+					<div class="section-name">
+						Deconstructing Coding Projects
+					</div>
+					<div class="section-meat">
+						<p>
+							We handle programming <em> just </em> like we do when designing a webpage: break the problem into pieces!
+						</p>
+						<p>
+							<u>Example</u>:  Building a Search Engine
+							<span class="subset-indent">
+								<br>
+								1 - Find Data (the bigger corpus the better)
+							</span>
+							<span class="subset-indent">
+								<br>
+								2 - Build an Index
+							</span>
+							<span class="subset-indent">
+								<br>
+								3 - Rank the Pages
+							</span>
+						</p>	
+					</div>
+				</div>		
+				<div class="section">
+					<div class="section-name">
+						Telling Computers What to Do
+					</div>
+					<div class="section-meat">
+						<p>
+							We uses programming "languages" to give computers instructions.  We use code languages rather than natural languages beause of computer languages are much more efficient.  Natural languages are also inherently ambiguous.
+						</p>	
+						<p>
+							In this course, we will use <em>Python</em>.  Python is a "high level language." This means that Python runs through an interpreter (also called Python) rather than directly on the computer.
+						</p>
+					</div>
+				</div>	
+				<div class="section">
+					<div class="section-name">
+						Language Structure: Backus-Naur Form
+					</div>
+					<div class="section-meat">
+						<p>
+							<em>Backus-Naur Form</em> is a way of discribing languages by generalizing "grammer structure."  An initial form is described and expanded with <em>non-terminals</em> until a <em>terminal</em> is reached.  
+						</p>	
+						<p>
+							We can demonstrate this using english grammar rules.  We describe an intital form of a sentence as <em>subject-verb-object</em>.  Subjects and objects are given a non-terminal of <em>nouns</em> and those nouns are given terminal options of specific words of noun form.  
+						</p>
+					</div>
+				</div>
+				<div class="section">
+					<div class="section-name">
+						Variables, Strings, Indexing, Sub-Sequences, and Find
+					</div>
+					<div class="section-meat">
+						<p>
+							"Variables" are names that are assigned to expressions in the form: name = expression.  The name must start with an integer or an underscore.  The equal sign is <em>not</em> the same as equivalency in math.  Rather, in coding, the equal signs means <em>assignment</em>.
+						</p>	
+						<p>
+							"Strings" are denoted by single or double quotes and can be letters, numbers or the "empty string."  Adding two strings together is called "concatenation."  
+						</p>
+						<p>
+							It is possible to "index" strings, or find the value of a string at a given position.  This is achieved by printing the variable followed by brackets "[ ]" with a number (beginning at "0" for the first position).
+						</p>
+						<p>
+							Similarly, a "sub-sequence" in a string can be identified by "[a:b]" where "a" is the starting position and "b" is the character one position before the value of "b."
+						</p>
+						<p>
+							The position of a "search string" can be found within a "target string" by using ".find" (This will return the first occourance or -1 if the search string isn't found.  To find further occurances assign a paramter.).
+						</p>
+						<p>
+							NOTE:  Keep in mind that 2 + 2 is NOT the same as "2" + "2"
+						</p>
+					</div>
+				</div>
+				<div class="section">
+					<div class="section-name">
+						Functions
+					</div>
+					<div class="section-meat">
+						<p>
+							Functions have two parts: "def" and "return".  "Def" is made up of the function name followed by operands (aka inputs) followed by a colon.  The "return" portion of the function is indented below "def" and specifies what is done to create the function's output.
+						</p>	
+						<p>
+							NOTE:  if the return is not specified then the function will return a value of "none"
+						</p>
+						<p>
+							Once a function is definied it can be used repeatedly eliminating repetition!
+						</p>
+					</div>
+				</div>	
+				<div class="section">
+					<div class="section-name">
+						Debugging
+					</div>
+					<div class="section-meat">
+						<p>
+							Before beginning, make sure that the problem is accurately defined. Problems are defined by a set of possible <em>inputs</em> and their relationship to desired <em>outputs</em>. 
+						</p>	
+						<p>
+							Don't jump straight to coding and don't optimize prematuraly.  Use a systematic approach solving small parts of the larger problem one by one and synthesizing into a complete solution.
+						</p>
+					</div>
+				</div>	
+				<div class="section">
+					<div class="section-name">
+						Structured Data: Lists and For Loops
+					</div>
+					<div class="section-meat">
+						<p>
+							A string is denoted by quotes (single, double or triple) while lists are a sequence of anything (strings or another element including other lists) denoted by brackets.  You can mutate a list by reassigning one of the members of the list a different value.  Three list operations:  "Append" (adds elements to the end of a list); adding of two lists; "len" returns the number of elements in a list.  
+						</p>
+					</div>
+				</div>	
+				<div class="section">
+					<div class="section-name">
+						How to Solve Problems
+					</div>
+					<div class="section-meat">
+						<p>
+							1- Understand the problem and split into different parts. 2- Define inputs and outputs. 3- Write "pseudo code". 4- Look for the simplest solution. 5- Do not optimize prematurely.
+						</p>
+					</div>
+				</div>	
+			</div>			
+		</div>
+	</body>	
+</html>	
